@@ -1,4 +1,4 @@
-em-induction
+EM-induction
 ============
 
 Python tools for electromagnetic (EM) induction forward modelling.
@@ -8,6 +8,12 @@ Basically at this stage it's a simple Python wrapper for running Emdpler, which 
 Singh, N. P., and Toru Mogi. "EMDPLER: A F77 program for modeling the EM response of dipolar sources over the non-magnetic layer earth models." Computers & Geosciences 36, no. 4 (2010): 430-440.
 
 Available at: http://dx.doi.org/10.1016/j.cageo.2009.08.009
+
+Examples
+--------
+
+ - [VMD example #1 - 2-layer model](http://nbviewer.ipython.org/github/kinverarity1/em-induction/blob/master/examples/VMD%20example%20%231%20-%202-layer%20model.ipynb)
+ - [VMD example #2 - varying overburden resistivity in 2 layer model](http://nbviewer.ipython.org/github/kinverarity1/em-induction/blob/master/examples/VMD%20example%20%232%20-%20varying%20overburden%20resistivity%20in%202%20layer%20model.ipynb)
 
 Requirements
 ------------
@@ -60,8 +66,3 @@ Then open a shell and go to the folder containing ``setup.py`` and run ``python 
     Finished processing dependencies for eminduction==0.0.0
 
 See the docstrings in ``emdpler.py`` for information on how to call the forward modelling program. It's intended to be simpler than doing it by hand: during the installation it compiles ``emdpler`` using ``gfortran`` and then when you call the forward modelling routine from Python it runs ``emdpler`` in a temporary directory, creating the input files and reading in the output files, and then deleting them all automatically.
-
-See these example IPython notebooks:
-
- - example 1
- - example 2
