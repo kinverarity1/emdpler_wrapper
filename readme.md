@@ -3,7 +3,7 @@ emdpler_wrapper
 
 Python wrapper for Emdpler, which is a Fortan 77 program for forward modelling the EM fields due to a vertical or horizontal magnetic dipole, published in this paper:
 
-[Singh, N. P., and Toru Mogi. "EMDPLER: A F77 program for modeling the EM response of dipolar sources over the non-magnetic layer earth models." **Computers & Geosciences** 36, no. 4 (2010): 430-440.](http://dx.doi.org/10.1016/j.cageo.2009.08.009)
+[Singh, N. P., and Toru Mogi. "EMDPLER: A F77 program for modeling the EM response of dipolar sources over the non-magnetic layer earth models." *Computers & Geosciences* 36, no. 4 (2010): 430-440.](http://dx.doi.org/10.1016/j.cageo.2009.08.009)
 
 Examples
 --------
