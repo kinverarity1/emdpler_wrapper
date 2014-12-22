@@ -22,7 +22,7 @@ if os.name == "nt":
 
 object_path = "emdpler" + suffix
 source_path = "Emdpler.for" 
-working_dir = os.path.join(os.path.dirname(__file__), "eminduction")
+working_dir = os.path.join(os.path.dirname(__file__), "emdpler_wrapper")
 
 logger.info("About to compile emdpler...")
 logger.debug("\t object_path=" + object_path)
@@ -43,7 +43,7 @@ else:
 
 # Set up Python package
 
-setup(name='eminduction',
+setup(name='emdpler_wrapper',
       entry_points={'console_scripts': [ 
       #     'EXECUTABLE_NAME = package_name.scripts.script_module_name:entry_function_name'
             ]
