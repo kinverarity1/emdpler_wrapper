@@ -8,8 +8,8 @@ Python wrapper for Emdpler, which is a Fortan 77 program for forward modelling t
 Examples
 --------
 
- - [VMD example #1 - 2-layer model](http://nbviewer.ipython.org/github/kinverarity1/em-induction/blob/master/examples/VMD%20example%20%231%20-%202-layer%20model.ipynb)
- - [VMD example #2 - varying overburden resistivity in 2 layer model](http://nbviewer.ipython.org/github/kinverarity1/em-induction/blob/master/examples/VMD%20example%20%232%20-%20varying%20overburden%20resistivity%20in%202%20layer%20model.ipynb)
+ - [VMD example #1 - 2-layer model](http://nbviewer.ipython.org/urls/bitbucket.org/kent104/emdpler_wrapper/raw/master/examples/VMD%20example%20%231%20-%202-layer%20model.ipynb)
+ - [VMD example #2 - varying overburden resistivity in 2 layer model](http://nbviewer.ipython.org/urls/bitbucket.org/kent104/emdpler_wrapper/raw/master/examples/VMD%20example%20%232%20-%20varying%20overburden%20resistivity%20in%202%20layer%20model.ipynb)
 
 Requirements
 ------------
