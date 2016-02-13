@@ -1,6 +1,8 @@
 emdpler_wrapper
 ===============
 
+![](https://img.shields.io/badge/status-beta-yellow.svg)
+
 Python wrapper for Emdpler, which is a Fortan 77 program for forward modelling the EM fields due to a vertical or horizontal magnetic dipole, published in this paper:
 
 [Singh, N. P., and Toru Mogi. "EMDPLER: A F77 program for modeling the EM response of dipolar sources over the non-magnetic layer earth models." *Computers & Geosciences* 36, no. 4 (2010): 430-440.](http://dx.doi.org/10.1016/j.cageo.2009.08.009)
@@ -8,8 +10,7 @@ Python wrapper for Emdpler, which is a Fortan 77 program for forward modelling t
 Examples
 --------
 
- - [VMD example #1 - 2-layer model](http://nbviewer.ipython.org/urls/bitbucket.org/kent104/emdpler_wrapper/raw/master/examples/VMD%20example%20%231%20-%202-layer%20model.ipynb)
- - [VMD example #2 - varying overburden resistivity in 2 layer model](http://nbviewer.ipython.org/urls/bitbucket.org/kent104/emdpler_wrapper/raw/master/examples/VMD%20example%20%232%20-%20varying%20overburden%20resistivity%20in%202%20layer%20model.ipynb)
+See [example Jupyter notebooks](http://nbviewer.jupyter.org/github/kinverarity1/emdpler_wrapper/tree/master/examples/)
 
 Requirements
 ------------
